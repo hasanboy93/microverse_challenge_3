@@ -1,0 +1,51 @@
+@media screen and (min-width: 480px) {
+    body {
+        background-color: lightgray;
+    }
+}
+
+body {
+    background-color: silver;
+}
+
+#header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    top: 0;
+    position: fixed;
+
+    padding: 0 15px;
+    z-index: 1;
+    background-color: silver;
+}
+#nav-bar {
+    display: inline-block;
+}
+#header img {
+    width: 320px;
+
+}
+
+#header ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+#header ul li, a {
+    color: black;
+    list-style: none;
+    text-decoration: none;
+    padding: 10px;
+}
+
+#content {
+    width: 60%;
+    margin: 80px auto 0 auto;
+}
+iframe {
+    margin: 0 auto;
+}
